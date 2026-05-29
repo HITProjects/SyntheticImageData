@@ -19,7 +19,7 @@ The answer is clear: **a model trained without synthetic data scores 0% on anima
 
 ## Pipeline Architecture
 
-![Pipeline Diagram](pipeline_diagram.jpeg)
+![Pipeline Diagram](docs/images/pipeline_diagram.jpeg)
 
 ---
 
@@ -161,7 +161,7 @@ Training hardware: NVIDIA L4 (22 GB VRAM), batch size 8.
 
 **Key takeaway:** M3 outperforms M2 across all test sets. The biggest gains are on **Test-Mixed (+28.8%)** and **Test-Synthetic (+32.9%)**. On mAP50-95 M3 also leads, with a notable jump on Test-Mixed (0.406 vs 0.287).
 
-![Performance Degradation Chart](Performance%20Degradation%20Chart.png)
+![Performance Degradation Chart](docs/images/Performance%20Degradation%20Chart.png)
 
 ### Overall Performance (mAP50-95)
 
@@ -201,7 +201,7 @@ M3 vs M2 on Test-Clean (measuring regression):
 
 M3 is the only model that detects animals on road (green box). M2 misses them entirely; M1 over-detects with noisy COCO labels.
 
-![Qualitative Comparison](Qualitative%20—%20M2%20vs%20M3%20on%20same%20synthetic%20image.png)
+![Qualitative Comparison](docs/images/Qualitative%20—%20M2%20vs%20M3%20on%20same%20synthetic%20image.png)
 
 ---
 
