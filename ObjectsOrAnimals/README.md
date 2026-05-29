@@ -1,6 +1,8 @@
 # Autonomous Car Edge Case Detection
 ### Synthetic Animal Insertion for Robustness Testing of Autonomous Driving Perception
 
+**Author:** Tomer Atia
+
 ---
 
 ## Overview
