@@ -357,7 +357,7 @@ Run on **Google Colab** with GPU runtime (A100 or L4 recommended for generation;
 - Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022). **High-resolution image synthesis with latent diffusion models.** *Proceedings of CVPR 2022.*
 
 ### Segmentation & Depth Estimation
-- Ravi, N., Gabeur, V., Hu, Y. T., Hu, R., Ryali, C., Ma, T., ... & Feichtenhofer, C. (2024). **SAM 2: Segment anything in images and videos.** *arXiv:2408.00714.* — used as `facebook/sam3`
+- Carion, N., Gustafson, L., Hu, Y. T., Debnath, S., Hu, R., Suris, D., ... & Feichtenhofer, C. (2025). **SAM 3: Segment Anything with Concepts.** *arXiv:2511.16719.* — used as `facebook/sam3`
 - Yang, L., Kang, B., Huang, Z., Xu, X., Feng, J., & Zhao, H. (2024). **Depth anything V2.** *arXiv:2406.09414.* — used as `depth-anything/Depth-Anything-V2-Small-hf`
 
 ### Object Detection
